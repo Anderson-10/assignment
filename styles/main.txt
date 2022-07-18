@@ -1,0 +1,132 @@
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+/*background image for the web page*/
+html {
+	background-image: url('../images/berry.jpg');
+	background-repeat: repeat;
+}
+/* the font or kind of letter to use in the document*/
+	body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/*div to display the frame where the main information will be placed, background, margin, borders, colors and shadows options are configured*/
+div#change1 {
+	block-size: 80%;
+	width:50%;
+    min-width:900px;
+	margin: 10px auto;
+    background-image: linear-gradient(#ffffff 10%, #fdf7e8 70%, #ffffff 100%);
+	border: 2px solid #009926;
+	box-shadow: 0px 0px 100px 6px #008020;
+	border-radius: 10px;
+	}
+/*Option to change to bolt the ettiquete a */
+a {
+	color: #008020; 
+}
+/*Option to change the color under the hiperlink*/
+a:link, a:visited { 
+	text-decoration: none; 
+}
+
+a:hover, a:focus { 
+    text-decoration: underline; 
+}
+
+/* Header */
+/* the float ettiquete help us to loctated the image in a webpage in the part of header */
+header img { 
+	float: left; 
+	} 
+	
+header p {
+border-bottom: #e8b417 3px solid;
+margin-left: 3%;
+margin-right: 3%;
+padding: 40px;
+}
+
+/*div to display the first title, set color location and different text options.*/
+header div#header-line-1 {
+	font-size: 280%;
+	margin-right: 3%;
+	text-align: right;
+	font-weight: bold;
+	color: #ecc03b;
+	text-indent: 25px;
+	text-shadow: 2px 2px 2px black;
+}
+/*div to display the second title, set color location and different text options.*/
+header div#header-line-2 {
+	font-size: 130%;
+	text-align: right;
+	margin-right: 3%;
+	font-weight: bold;
+	font-style: italic;
+	color: #008020;
+}
+
+/* Main */
+main {
+	float: clear;
+	width:638 px;
+}
+/*Ettiquete to config the size of the first letter in the main part of our html */
+main h1 { 
+	margin: 0;
+	font-size: 200%;
+}
+/*label to increase the font size of the first word in the main with the h1 */
+main h1:first-letter { 
+	font-size: 200%;
+}
+
+main h2 {
+	font-size: 125%;
+}
+
+main h3 {
+	
+	font-size: 110%;
+}
+main ul#product-categories {
+	list-style-type: none;
+}
+/*Label for setting colors, shadows and image placement in the main area*/
+main img{
+border: 3px solid #e8b417;
+border-radius: 10px;
+box-shadow:0px 0px 10px #ecc03b;
+}
+/*The container settings located on the left side, the size, location, borders and margins are configured.*/ 
+aside {
+	width: 230px;
+	float: left;
+	min-height:1200px;
+	border-right: #e8b417 3px solid;
+	margin-left: 3%;
+	margin-right: 3%;	
+}
+aside p {
+	color: #d1a215;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+aside h3 {
+	font-size:90%;
+}
+
+/* Footer */
+/*Option to change the location on the webpage for the paragraph in the etiqquete p in the footer*/
+footer p {
+	font-size: 80%;
+	text-align: center;
+	border-top: #e8b417 3px solid;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 20px;
+}
